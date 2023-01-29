@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "my-test-project"
+version = "0.1.1"
+description = "This is my first test project on PyPI.org"
+authors = ["Mahad"]
+readme = "README.md"
+packages = [{include = "my_test_project"}]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
